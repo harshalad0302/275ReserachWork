@@ -1,0 +1,241 @@
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:auto;
+    bottom:0px;
+    right:0px;
+    left:auto;
+    background-size: cover;
+    background-position: 70% 30%;
+    background-image: url("../src/assests/Image/Background_brown.jpg");
+}
+
+.mainContainerDashboard{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:auto;
+    bottom:0px;
+    right:0px;
+    left:auto;
+    background-size: cover;
+    background-position: 70% 30%;
+    background-image: url("../src/assests/Image/clouds_background.jpg");
+ 
+}
+
+.mainContainerSignup{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:auto;
+    bottom:0px;
+    right:0px;
+    left:auto;
+    background-size: cover;
+    background-position: 70% 30%;
+    background-image: url("../src/assests/Image/clouds_background.jpg");
+}
+
+.flexContainer-row{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 10px;
+}
+
+.flexContainer-row-withoutgap{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.flex-left {
+  width: 75%;
+ /*border: 2px solid red;*/ 
+}
+
+.flex-right {
+    width: 25%; 
+   /* border: 2px solid green ;*/
+}
+
+.flex-right-signup {
+    width: 70%;
+
+   
+    height: 80vh;
+  /*  border: 2px solid green ; */
+}
+
+.flex-left-signup {
+  width: 30%;
+
+  height: 80vh;
+
+ /* border: 2px solid red; */
+}
+
+
+.flexContainer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tittle{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(19, 20, 20, 0.384);
+    text-align: center;
+}
+
+.flex-top-header{
+
+    width: 100%;
+    height: 12vh;
+    /*border: 2px solid blue; */
+}
+
+
+.flex-top{
+
+    width: 100%;
+    height: 20vh;
+    margin: 5px;
+    padding: 2px;
+    /* border: 2px solid blue; */
+}
+
+.flex-top-signup{
+    width: 100%;
+    height: 10vh;
+  /*  border: 2px solid blue; */
+}
+
+
+.button-grey{
+
+    background-color: #e0e0e0b0;
+    border: none;
+    color: rgb(13, 16, 17);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.button-grey:hover{
+    background-color: #918b8b;
+    border: none;
+}
+.button-grey:active{
+    background-color: #918b8b;
+    border: none;
+}
+
+.button-dark{
+
+    background-color: #1f1313b0;
+    border: none;
+    color: rgb(185, 200, 206);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.button-dark:hover{
+    background-color: #918b8b;
+    border: none;
+}
+.button-dark:active{
+    background-color: #918b8b;
+    border: none;
+}
+
+.inputFiled{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(226, 214, 214);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+/*search bar */
+.searchbar {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  height: 10vh;
+  display: inline-block;
+  border: 1px solid rgb(226, 214, 214);
+  border-radius: 10px;
+  font-size: 100%;
+  box-sizing: border-box;
+ 
+}
+
+.flex-left-searchbar {
+  width: 75%;
+  align-items: flex-end;
+  justify-content: flex-end;
+ /*border: 2px solid rgb(140, 184, 22); */
+}
+
+.ErrorMessage {
+    color: rgb(219, 71, 71);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.DefaultProfileStyle{
+    border-radius: 100px;
+    height: 12vh;
+    width: 100%;
+}
+
+/* dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #686b6a
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .button_profile {
+    background-color: #686b6a;
+}
+
+.headerImage{
+    width: 100%;
+    height: 12vh;
+}
